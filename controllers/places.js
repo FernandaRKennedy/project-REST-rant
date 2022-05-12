@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Thai, Pan-Asian',
-        pic: 'http://placekitten.com/250/250'
+        pic: 'https://www.lacademie.com/wp-content/uploads/2021/08/various-asian-meals.jpg'
     },
     
    {
@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
         city: 'Phoenix',
         state: 'AZ',
         cuisines: 'Coffee, Bakery',
-        pic: 'http://placekitten.com/250/250'
+        pic: 'https://travel.home.sndimg.com/content/dam/images/travel/fullrights/2019/4/22/0/CI_Catmosphere-Laguna_coffee-bar.jpg.rend.hgtvcom.966.644.suffix/1555930348188.jpeg'
     }]
     res.render('places/index', { places })
 })
