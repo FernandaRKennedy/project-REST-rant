@@ -1,40 +1,65 @@
-h1 {
-    text-align: center;
-    color: cornflowerblue;
- }
-
 body {
-    background-color: lightblue;
-    text-align: center;
+  background-color: lightblue;
+  text-align: center;
 }
-  
+
 main {
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
 }
-  
+ 
+
+h1 {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  padding: 20px;
+}
+
 nav {
-    background-color: cornflowerblue;
-    padding: 10px;
+  background-color: cornflowerblue;
+  padding: 10px;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
+  list-style-type: none;
+  margin: 0;
 }
 
 nav li {
-    display: inline;
-    margin-right: 25px;
+  display: inline;
+  margin-right: 25px;
 }
 
 nav a {
-    color: white;
-    font-size: 1.5em;
+  color: white;
+  font-size: 1.5em;
 }
 
 nav a:hover {
-    color: pink;
-    text-decoration: none;
+  color: pink;
+  text-decoration: none;
 }
