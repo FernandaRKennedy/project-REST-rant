@@ -7,3 +7,4 @@ mongoose.connect(mongooseURI, {useNewUrlParser: true, useUnifiedTopology: true},
     () => {console.log('connected to mongo: ', mongooseURI)}
 )
 module.exports.Place = require('./places');
+module.exports.Comment = require('./coment')

@@ -5,14 +5,14 @@ db.Place.create([{
     city: 'Raleigh',
     state: 'NC',
     cuisines: 'Korean food',
-    pic: 'public/Images/koreanfood.jpg',
+    pic: 'Images/koreanfood.jpg',
     founded: 1989
 }, {
     name: 'Flying Saucer',
     city: 'Raleigh',
     state: 'NC',
     cuisines: 'bar,restaurant',
-    pic: img= 'public/Images/flying saucer.jpg',
+    pic: 'Images/flying saucer.jpg',
     founded: 2020
 }])
 .then (() =>{
