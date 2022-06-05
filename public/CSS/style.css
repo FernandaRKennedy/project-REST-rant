@@ -4,16 +4,14 @@ body {
 }
 
 main {
-  margin-right: 20px;
-  margin-left: 20px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
   background-color: white;
-}
- 
+}  
 
-h1 {
+/* h1 {
   text-align: center;
-  color: cornflowerblue;
-}
+} */
 
 h2 {
   text-align: center;
@@ -33,10 +31,6 @@ p {
 button {
   margin-left: auto;
   margin-right: auto;
-}
-
-div {
-  padding: 20px;
 }
 
 nav {
@@ -62,4 +56,8 @@ nav a {
 nav a:hover {
   color: pink;
   text-decoration: none;
+}
+
+div {
+  padding: 20px;
 }

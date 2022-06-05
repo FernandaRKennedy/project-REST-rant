@@ -1,7 +1,7 @@
 const db = require('../models')
 
 db.Place.create([{
-    name: 'Seul Restaurant',
+    name: 'Seul Garden',
     city: 'Raleigh',
     state: 'NC',
     cuisines: 'Korean food',
